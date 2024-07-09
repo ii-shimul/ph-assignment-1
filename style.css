@@ -113,11 +113,8 @@ p {
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.02);
   margin-top: 74px;
+  margin-bottom: 70px;
 }
-
-/* .why-web .question{
-    
-} */
 
 .ans-container .ans {
   display: flex;
@@ -136,7 +133,7 @@ p {
   margin-bottom: 32px;
 }
 
-.ans-btn{
+.ans-btn {
   box-sizing: border-box;
   border: 1px solid rgb(13, 19, 33);
   opacity: 0.7;
@@ -162,4 +159,28 @@ p {
     rgb(255, 255, 255),
     rgba(255, 255, 255, 0) 100%
   );
+}
+
+/* inspiration styles */
+
+.inspiration .text {
+  margin-bottom: 42px;
+}
+
+.inspiration .text h1 {
+  margin-bottom: 20px;
+}
+
+.yt-video {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  padding: 25px;
+  margin-bottom: 130px;
+}
+
+.yt-video iframe {
+  width: 957px;
+  height: 480px;
+  border-radius: 16px;
 }
