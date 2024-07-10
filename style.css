@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* common styles */
 
 .azeret {
@@ -60,12 +64,13 @@ nav .btn {
   box-sizing: border-box;
   border: 1px solid rgb(13, 19, 33);
   border-radius: 8px;
-  padding: 17px 24px 17px 24px;
   opacity: 0.8;
+  padding: 15px 21px 15px 21px;
   color: rgb(13, 19, 33);
-  font-size: 16px;
+  background-color: #fff;
+  font-size: 17.8px;
   font-weight: 600;
-  line-height: 18px;
+  line-height: 20px;
   text-align: center;
   cursor: pointer;
 }
@@ -203,7 +208,7 @@ p {
   border-radius: 16px;
 }
 
-/* current targer styles */
+/* current target styles */
 
 .current-target .text {
   margin: 0 86px 43px 86px;
@@ -230,9 +235,14 @@ p {
   font-size: 21px;
   font-weight: 800;
   line-height: 23px;
-  letter-spacing: 0%;
-  text-align: left;
   margin-bottom: 8px;
+}
+
+.cards .card a {
+  color: rgb(13, 19, 33);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
 }
 
 .cards .card img,
@@ -327,6 +337,8 @@ p {
   justify-content: space-between;
   align-items: center;
   padding: 28.5px 133.5px 28.5px 133.5px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
 }
 
 .contact h3 {
@@ -336,4 +348,6 @@ p {
   line-height: 20.5px;
 }
 
-
+.contact .icons a{
+  margin-left: 18px;
+}
